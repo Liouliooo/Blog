@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@diogotc/vuepress-plugin-katex": "^2.0.0",
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it": "^12.2.0"
+  }
+}

@@ -1,0 +1,18 @@
+# git ignore files and folders
+
+# npm
+node_modules/
+package-lock.json
+
+# yarn
+yarn-error.log
+yarn.lock
+
+# vscode
+.vscode/
+
+# vuepress
+docs/.vuepress/dist/
+
+# mac os
+.DS_Store
