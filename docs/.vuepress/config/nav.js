@@ -24,6 +24,11 @@ module.exports = [
     },
 
     {
+        text: '计算机基础',
+        link: '/CS/',
+    },
+
+    {
         text: '关于',
         link: '/about/',
         items: [

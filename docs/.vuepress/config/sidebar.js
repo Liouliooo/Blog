@@ -1,32 +1,6 @@
 // sidebar
 
 module.exports = {
-    // 强化学习
-    '/RL/': [
-        {
-            title: '强化学习',
-            collapsable: false,
-            children: [
-                ['', '概述'],
-                '第一章',
-                'rdocs/第二章',
-            ]
-        },
-    ],
-
-    // 机器学习
-    '/machine_learning/': [
-        {
-            title: '机器学习',
-            collapsable: false,
-            children: [
-                ['', '概述'],
-                '第一章',
-                '期望最大化',
-            ]
-        }
-    ],
-
     // 数学
     '/math/linear_algebra/': [
         {
@@ -59,5 +33,46 @@ module.exports = {
                 '第一章',
             ]
         }
+    ],
+
+    // 机器学习
+    '/machine_learning/': [
+        {
+            title: '机器学习',
+            collapsable: false,
+            children: [
+                ['', '概述'],
+                '第一章',
+                '期望最大化',
+                '变分推断',
+                '调参',
+                '数据增广',
+            ]
+        }
+    ],
+
+    // 强化学习
+    '/RL/': [
+        {
+            title: '强化学习',
+            collapsable: false,
+            children: [
+                ['', '概述'],
+                '第一章',
+                'rdocs/第二章',
+            ]
+        },
+    ],
+
+    // 计算机基础
+    '/CS/': [
+        {
+            title: '计算机基础',
+            collapsable: true,
+            children: [
+                ['', '概述'],
+                '调试九法',
+            ]
+        },
     ],
 }
