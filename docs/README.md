@@ -15,7 +15,7 @@ features:
     details: 强化学习基础
 
   - title: 计算机知识
-    details: 计算机知识基础
+    details: 计算机基础知识
 
   - title: 并行计算
     details: 并行编程、并行计算

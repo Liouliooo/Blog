@@ -42,7 +42,6 @@ module.exports = {
             collapsable: false,
             children: [
                 ['', '概述'],
-                '第一章',
                 '期望最大化',
                 '变分推断',
                 '调参',
@@ -67,11 +66,23 @@ module.exports = {
     // 计算机基础
     '/CS/': [
         {
-            title: '计算机基础',
+            title: '计算机知识',
             collapsable: true,
             children: [
                 ['', '概述'],
                 '调试九法',
+            ]
+        },
+    ],
+
+    // 并行计算
+    '/parallel_computing/': [
+        {
+            title: '并行计算',
+            collapsable: true,
+            children: [
+                ['', '概述'],
+                '第一章',
             ]
         },
     ],

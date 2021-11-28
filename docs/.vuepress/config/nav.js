@@ -24,8 +24,13 @@ module.exports = [
     },
 
     {
-        text: '计算机基础',
+        text: '计算机知识',
         link: '/CS/',
+    },
+
+    {
+        text: '并行计算',
+        link: '/parallel_computing/',
     },
 
     {
