@@ -14,6 +14,7 @@
 $ git clone git@github.com:Liouliooo/Blog.git
 $ cd Blog
 $ npm install
+$ npm run docs:dev
 ```
 
 ## 部署方法

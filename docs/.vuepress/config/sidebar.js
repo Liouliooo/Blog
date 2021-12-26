@@ -83,6 +83,7 @@ module.exports = {
             children: [
                 ['', '概述'],
                 '第一章',
+                '第二章',
             ]
         },
     ],
