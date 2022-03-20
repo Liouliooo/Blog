@@ -9,7 +9,7 @@ module.exports = [
         items: [
             { text: '线性代数', link: '/math/linear_algebra/' },
             { text: '最优化理论', link: '/math/optimization/' },
-            { text: '概率论', link: '/math/probabilistic/'},
+            { text: '概率论', link: '/math/probabilistic/' },
         ]
     },
 
@@ -31,6 +31,17 @@ module.exports = [
     {
         text: '并行计算',
         link: '/parallel_computing/',
+    },
+
+    {
+        text: '自动驾驶',
+        link: '/auto_driving/',
+        items: [
+            { text: '感知', link: '/auto_driving/perception/' },
+            { text: '预测', link: '/auto_driving/prediction/' },
+            { text: '规划', link: '/auto_driving/planning/' },
+            { text: '控制', link: '/auto_driving/control/'},
+        ]
     },
 
     {
