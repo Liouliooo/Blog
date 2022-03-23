@@ -9,18 +9,19 @@ module.exports = [
         items: [
             { text: '线性代数', link: '/math/linear_algebra/' },
             { text: '最优化理论', link: '/math/optimization/' },
-            { text: '概率论', link: '/math/probabilistic/' },
+            { text: '数理统计学', link: '/math/probabilistic/' },
         ]
     },
 
     {
         text: '机器学习',
         link: '/machine_learning/',
-    },
-
-    {
-        text: '强化学习',
-        link: '/RL/',
+        items: [
+            { text: '频率派方法', link: '/machine_learning/frequentist/' },
+            { text: '贝叶斯方法', link: '/machine_learning/bayesian/' },
+            { text: '强化学习', link: '/machine_learning/reinforcement_learning/' },
+            { text: '其他', link: '/machine_learning/others/'}
+        ]
     },
 
     {
@@ -37,11 +38,16 @@ module.exports = [
         text: '自动驾驶',
         link: '/auto_driving/',
         items: [
-            { text: '感知', link: '/auto_driving/perception/' },
-            { text: '预测', link: '/auto_driving/prediction/' },
-            { text: '规划', link: '/auto_driving/planning/' },
-            { text: '控制', link: '/auto_driving/control/'},
+            { text: '感 知', link: '/auto_driving/perception/' },
+            { text: '预 测', link: '/auto_driving/prediction/' },
+            { text: '规 划', link: '/auto_driving/planning/' },
+            { text: '控 制', link: '/auto_driving/control/'},
         ]
+    },
+
+    {
+        text: '杂技',
+        link: '/zaji/',
     },
 
     {

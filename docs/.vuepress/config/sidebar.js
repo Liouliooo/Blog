@@ -37,8 +37,19 @@ module.exports = {
         }
     ],
 
-    // 机器学习
-    '/machine_learning/': [
+    // 机器学习-频率派
+    '/machine_learning/frequentist/': [
+        {
+            title: '机器学习',
+            collapsable: false,
+            children: [
+                ['', '概述'],
+            ]
+        }
+    ],
+
+    // 机器学习-贝叶斯派
+    '/machine_learning/bayesian/': [
         {
             title: '机器学习',
             collapsable: false,
@@ -46,14 +57,12 @@ module.exports = {
                 ['', '概述'],
                 '期望最大化',
                 '变分推断',
-                '调参',
-                '数据增广',
             ]
         }
     ],
 
-    // 强化学习
-    '/RL/': [
+    // 机器学习-强化学习
+    '/machine_learning/reinforcement_learning/': [
         {
             title: '强化学习',
             collapsable: false,
@@ -61,6 +70,19 @@ module.exports = {
                 ['', '概述'],
                 '第一章',
                 'rdocs/第二章',
+            ]
+        },
+    ],
+
+    // 机器学习-其他
+    '/machine_learning/others/': [
+        {
+            title: '强化学习',
+            collapsable: false,
+            children: [
+                ['', '概述'],
+                '调参',
+                '数据增广',
             ]
         },
     ],
@@ -118,6 +140,13 @@ module.exports = {
             ]
         },
         {
+            title: 'Tracking',
+            children: [
+                ['', '概述'],
+                'tracking/第一章',
+            ]
+        },
+        {
             title: 'Fusion',
             children: [
                 ['', '概述'],
@@ -164,5 +193,16 @@ module.exports = {
                 ['', '概述'],
             ]
         },
+    ],
+
+    // 杂记
+    '/zaji/': [
+        {
+            title: '杂记',
+            collapsable: true,
+            children: [
+                ['', '啥'],
+            ]
+        }
     ],
 }
