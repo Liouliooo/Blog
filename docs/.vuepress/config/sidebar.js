@@ -37,10 +37,21 @@ module.exports = {
         }
     ],
 
+    // 机器学习-无监督学习
+    '/machine_learning/unsupervised/': [
+        {
+            title: '无监督学习',
+            collapsable: false,
+            children: [
+                ['', '概述'],
+            ]
+        }
+    ],
+
     // 机器学习-频率派
     '/machine_learning/frequentist/': [
         {
-            title: '机器学习',
+            title: '频率派方法',
             collapsable: false,
             children: [
                 ['', '概述'],
@@ -51,7 +62,7 @@ module.exports = {
     // 机器学习-贝叶斯派
     '/machine_learning/bayesian/': [
         {
-            title: '机器学习',
+            title: '贝叶斯方法',
             collapsable: false,
             children: [
                 ['', '概述'],
@@ -77,20 +88,58 @@ module.exports = {
     // 机器学习-其他
     '/machine_learning/others/': [
         {
-            title: '强化学习',
+            title: '其他',
             collapsable: false,
             children: [
                 ['', '概述'],
                 '调参',
                 '数据增广',
+                '特征工程',
+                '人工智能落地',
+                '模型选择',
+                '机器学习评价指标',
+                '超参数调整',
             ]
         },
     ],
 
-    // 计算机基础
-    '/CS/': [
+    // 计算机基础-数据结构和算法
+    '/cs/algorithm/': [
         {
-            title: '计算机知识',
+            title: '数据结构和算法',
+            collapsable: true,
+            children: [
+                ['', '总览'],
+            ]
+        },
+    ],
+
+    // 计算机基础-数字图像处理
+    '/cs/digital_image_processing/': [
+        {
+            title: '数字图像处理',
+            collapsable: true,
+            children: [
+                ['', '概述'],
+            ]
+        },
+    ],
+
+    // 计算机基础-Linux
+    '/cs/linux/': [
+        {
+            title: 'Linux',
+            collapsable: true,
+            children: [
+                ['', '概述'],
+            ]
+        },
+    ],
+
+    // 计算机基础-其他
+    '/cs/others/': [
+        {
+            title: '其他',
             collapsable: true,
             children: [
                 ['', '概述'],

@@ -5,7 +5,10 @@ tags:
 
 # 概述
 
-其他内容
+机器学习方法概述
 
+<div align="center">
+  <img src="/images/machine_learning/others/ml_methods.png" width="1000" alt="机器学习方法"/>
+</div>
 
-链接测试跳转到[EM](/machine_learning/bayesian/期望最大化.md)
+注意新的方法，图神经网络

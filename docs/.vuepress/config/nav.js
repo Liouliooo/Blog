@@ -17,16 +17,23 @@ module.exports = [
         text: '机器学习',
         link: '/machine_learning/',
         items: [
+            { text: '无监督学习', link: '/machine_learning/unsupervised/'},
             { text: '频率派方法', link: '/machine_learning/frequentist/' },
             { text: '贝叶斯方法', link: '/machine_learning/bayesian/' },
             { text: '强化学习', link: '/machine_learning/reinforcement_learning/' },
-            { text: '其他', link: '/machine_learning/others/'}
+            { text: '其他', link: '/machine_learning/others/' },
         ]
     },
 
     {
         text: '计算机知识',
-        link: '/CS/',
+        link: '/cs/',
+        items: [
+            { text: '数据结构和算法', link: '/cs/algorithm/' },
+            { text: '数字图像处理', link: '/cs/digital_image_processing/' },
+            { text: 'Linux', link: '/cs/linux/' },
+            { text: '其他', link: '/cs/others/' },
+        ]
     },
 
     {
@@ -46,7 +53,7 @@ module.exports = [
     },
 
     {
-        text: '杂技',
+        text: '杂记',
         link: '/zaji/',
     },
 
