@@ -132,6 +132,7 @@ module.exports = {
             collapsable: true,
             children: [
                 ['', '概述'],
+                '常用命令',
             ]
         },
     ],
