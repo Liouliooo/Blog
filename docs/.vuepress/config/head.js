@@ -6,7 +6,7 @@ module.exports = [
       'meta',
       {
         name: 'keywords',
-        content: '大絮,Liouliooo,liouliooo,Lio,lio',
+        content: '大絮,Liouliooo,liouliooo,Lio,lio,LIO,LIOULIOOO',
       },
     ],
 ]

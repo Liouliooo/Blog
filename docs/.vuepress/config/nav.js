@@ -42,17 +42,6 @@ module.exports = [
     },
 
     {
-        text: '自动驾驶',
-        link: '/auto_driving/',
-        items: [
-            { text: '感 知', link: '/auto_driving/perception/' },
-            { text: '预 测', link: '/auto_driving/prediction/' },
-            { text: '规 划', link: '/auto_driving/planning/' },
-            { text: '控 制', link: '/auto_driving/control/'},
-        ]
-    },
-
-    {
         text: '杂记',
         link: '/zaji/',
     },
